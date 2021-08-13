@@ -5,7 +5,7 @@ public class Empleado extends Vendedor{
     private int antiguedad = 0;
     private int cantidadNuevosAfiliados = 0;
 
-    public Empleado(String nombre, int puntosAlcanzados, String categoria, int antiguedad, int cantidadNuevosAfiliados) {
+    public Empleado(String nombre, int puntosAlcanzados, String categoria, int antiguedad) {
         super(nombre, puntosAlcanzados, categoria);
         this.antiguedad = antiguedad;
     }

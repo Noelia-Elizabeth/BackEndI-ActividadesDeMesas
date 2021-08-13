@@ -4,8 +4,9 @@ public abstract class CompruebaCalidad {
 
     private CompruebaCalidad siguienteControl;
 
-    public void setSiguienteControl(CompruebaCalidad control){
+    public CompruebaCalidad setSiguienteControl(CompruebaCalidad control){
         this.siguienteControl = control;
+        return control;
     }
 
     public CompruebaCalidad getSiguienteControl() {

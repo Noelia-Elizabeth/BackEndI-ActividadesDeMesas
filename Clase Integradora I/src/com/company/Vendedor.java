@@ -63,11 +63,8 @@ public abstract class Vendedor {
     public void mostrarCategoría() {
         this.calcularPuntos();
         System.out.println("El vendedor " + this.nombre + " es categoría: " + this.categoria);
-
     }
 
-    public void vender(int cantidadVentas) {
-
-    }
+    public abstract void vender(int cantidadVentas);
 
 }
