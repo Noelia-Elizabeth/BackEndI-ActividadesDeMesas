@@ -47,7 +47,7 @@ public class Main {
             System.out.println("⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩚⩛⩛");
             System.out.println(serieProxy.getPelicula(scanner.next().toLowerCase(Locale.ROOT)));
             System.out.println("⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛");
-        } catch (Exception exception) {
+        } catch (SerieNoHabilitadaException exception) {
             System.out.println("Error: " + exception.getMessage());
         }
 

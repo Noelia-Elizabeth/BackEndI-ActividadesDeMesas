@@ -6,7 +6,7 @@ public class SerieProxy implements ISerie{
     private Serie serie;
 
     @Override
-    public String getPelicula(String pelicula) throws Exception {
+    public String getPelicula(String pelicula) throws SerieNoHabilitadaException {
         if (this.serie == null) {
             this.serie = new Serie();
         }
@@ -14,7 +14,7 @@ public class SerieProxy implements ISerie{
             cantVistas++;
             return this.serie.getPelicula(pelicula);
         } else {
-            throw new Exception("Lo lamento; alcanzaste el máximo de películas que podés pedir esta semana.");
+            throw new SerieNoHabilitadaException("Lo lamento; alcanzaste el máximo de películas que podés pedir esta semana.");
         }
     }
 
