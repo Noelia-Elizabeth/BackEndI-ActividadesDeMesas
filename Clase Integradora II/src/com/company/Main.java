@@ -1,5 +1,6 @@
 package com.company;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
@@ -14,7 +15,37 @@ public class Main {
             System.out.println("⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛");
             System.out.println("Ingrese la película a descargar:");
             System.out.println("⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩚⩛⩛");
-            serieProxy.getPelicula(scanner.next());
+            System.out.println(serieProxy.getPelicula(scanner.next().toLowerCase(Locale.ROOT)));
+            System.out.println("⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛");
+            System.out.println(" ");
+            System.out.println("⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛");
+            System.out.println("Ingrese la película a descargar:");
+            System.out.println("⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩚⩛⩛");
+            System.out.println(serieProxy.getPelicula(scanner.next().toLowerCase(Locale.ROOT)));
+            System.out.println("⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛");
+            System.out.println(" ");
+            System.out.println("⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛");
+            System.out.println("Ingrese la película a descargar:");
+            System.out.println("⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩚⩛⩛");
+            System.out.println(serieProxy.getPelicula(scanner.next().toLowerCase(Locale.ROOT)));
+            System.out.println("⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛");
+            System.out.println(" ");
+            System.out.println("⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛");
+            System.out.println("Ingrese la película a descargar:");
+            System.out.println("⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩚⩛⩛");
+            System.out.println(serieProxy.getPelicula(scanner.next().toLowerCase(Locale.ROOT)));
+            System.out.println("⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛");
+            System.out.println(" ");
+            System.out.println("⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛");
+            System.out.println("Ingrese la película a descargar:");
+            System.out.println("⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩚⩛⩛");
+            System.out.println(serieProxy.getPelicula(scanner.next().toLowerCase(Locale.ROOT)));
+            System.out.println("⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛");
+            System.out.println(" ");
+            System.out.println("⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛");
+            System.out.println("Ingrese la película a descargar:");
+            System.out.println("⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩚⩛⩛");
+            System.out.println(serieProxy.getPelicula(scanner.next().toLowerCase(Locale.ROOT)));
             System.out.println("⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛⩚⩛");
         } catch (Exception exception) {
             System.out.println("Error: " + exception.getMessage());
