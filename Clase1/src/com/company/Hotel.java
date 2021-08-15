@@ -20,7 +20,13 @@ public class Hotel {
         //this.servicioHotel.getHoteles().forEach(element ->
         //        System.out.println("Soy un hotel " + element.getNombre())
         //);
+    }
 
+    public Hotel(Date fechaDeEntrada, Date fechaDeSalida, String ciudad, String nombre) {
+        this.fechaDeEntrada = fechaDeEntrada;
+        this.fechaDeSalida = fechaDeSalida;
+        this.ciudad = ciudad;
+        this.nombre = nombre;
     }
 
     public Date getFechaDeEntrada() {

@@ -6,7 +6,7 @@ public abstract class CompruebaCalidad {
 
     public CompruebaCalidad setSiguienteControl(CompruebaCalidad control){
         this.siguienteControl = control;
-        return control;
+        return this;
     }
 
     public CompruebaCalidad getSiguienteControl() {

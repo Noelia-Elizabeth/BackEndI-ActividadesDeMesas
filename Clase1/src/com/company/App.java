@@ -14,6 +14,8 @@ public class App {
         Vuelo vuelo1 = new Vuelo(1,new Date(15/02/2022),"Mendoza", "Bariloche", facade);
         Vuelo vuelo2 = new Vuelo(2,new Date(11/3/2022),"Bariloche", "Mendoza", facade);
 
+        Hotel hotel3 = new Hotel(new Date(15/02/2022),new Date(11/3/2022),"Bariloche", "El hotel de Leandro");
+        facade.agregar(hotel3);
 
 
         //Implementación de la calse Facade

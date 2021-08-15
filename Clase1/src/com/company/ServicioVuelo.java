@@ -11,7 +11,6 @@ public class ServicioVuelo {
     public void busquedaVuelo(Date fechaDeSalida, Date fechaDeRetorno, String origen, String destino) {
         System.out.println("   ✈ Para la ida:");
         for (Vuelo vuelo: vuelos){
-            //System.out.println("hola"); //REVISAR: No entra al bucle.
             if (fechaDeSalida.equals(vuelo.getFecha()) && origen.equals(vuelo.getOrigen()) && destino.equals(vuelo.getDestino())) {
                 System.out.println("               " + vuelo.getIdVuelo());
             }
@@ -19,7 +18,6 @@ public class ServicioVuelo {
 
         System.out.println("   ✈ Para la vuelta:");
         for (Vuelo vuelo: vuelos){
-            //System.out.println("hola"); //REVISAR: No entra al bucle.
             if (fechaDeRetorno.equals(vuelo.getFecha()) && origen.equals(vuelo.getDestino()) && destino.equals(vuelo.getOrigen())) {
                 System.out.println("               " + vuelo.getIdVuelo());
             }
