@@ -8,14 +8,19 @@ public class Hotel {
     private Date fechaDeSalida;
     private String ciudad;
     private String nombre;
-    ServicioHotel servicioHotel = new ServicioHotel();
+    //ServicioHotel servicioHotel = new ServicioHotel();
 
-    public Hotel(Date fechaDeEntrada, Date fechaDeSalida, String ciudad, String nombre) {
+    public Hotel(Date fechaDeEntrada, Date fechaDeSalida, String ciudad, String nombre, Facade facade) {
         this.fechaDeEntrada = fechaDeEntrada;
         this.fechaDeSalida = fechaDeSalida;
         this.ciudad = ciudad;
         this.nombre = nombre;
-        servicioHotel.getHoteles().add(this);
+        facade.agregar(this);
+        //this.servicioHotel.getHoteles().add(this);
+        //this.servicioHotel.getHoteles().forEach(element ->
+        //        System.out.println("Soy un hotel " + element.getNombre())
+        //);
+
     }
 
     public Date getFechaDeEntrada() {

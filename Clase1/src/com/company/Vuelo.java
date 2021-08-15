@@ -8,14 +8,15 @@ public class Vuelo {
     private Date fecha;
     private String origen;
     private String destino;
-    ServicioVuelo servicioVuelo = new ServicioVuelo();
+    //ServicioVuelo servicioVuelo = new ServicioVuelo();
 
-    public Vuelo(int idVuelo, Date fecha, String origen, String destino) {
+    public Vuelo(int idVuelo, Date fecha, String origen, String destino, Facade facade) {
         this.idVuelo = idVuelo;
         this.fecha = fecha;
         this.origen = origen;
         this.destino = destino;
-        servicioVuelo.getVuelos().add(this);
+        facade.agregar(this);
+        //this.servicioVuelo.getVuelos().add(this);
     }
 
     public Date getFecha() {
